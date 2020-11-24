@@ -23,7 +23,7 @@ if $z_0 \neq \infty$ then $$ind_{z_0}f:= ord_{z_0}[f(z)-z]$$
 
 if $z_0 = \infty$ then set $g(z) = \frac{1}{f(\frac{1}{z})} \to g(0)$ because $f(\infty) = \infty$ so that $$ind_{\infty}f = ind_{0}g$$
 
-# Fact from Geometry, Sum of Indeces:
+# Fact from Geometry, Sum of Indices:
 recall that meromorphic functions (analytic when a finite number of singularities are removed) can be written as a ratio of two polynomials:
 
 $$f(z) = \frac{P(z)}{Q(z)}$$ where $P,Q$ have no common roots. 
