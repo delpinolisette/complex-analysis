@@ -1,10 +1,11 @@
 # Table of Contents
 1. Fixed points (more info)
-    - definition of index of fixed point.
+    - definition of index of fixed point
+    - sum of indices of fixed points of $f$
 2. Lemma: Existence of a special fractional linear map
-3. Definition :Cross Ratio of Four Distince Points
+3. Definition :Cross Ratio of Four Distinct Points
 4. Proposition: Fractional Linear Maps Preserve Cross Ratio
-5. Theorem: For any distinct point triples, there exists a unique fractional linear map sending them to each otehr. 
+5. Theorem: For any distinct point triples, there exists a unique fractional linear map sending them to each other. 
 
 Summary: The goal for these notes was to show that for any triples of distinct points there exists a unique map such that these points get mapped to each other. So:
 
@@ -32,7 +33,7 @@ Then $$\sum_{f(z_0)=z_o, z_0 \in \mathbb{\overline C}} Ind_{z_0}f = 1+d$$
 
 But in particular when $f$ is a fractional linear transformation, then $d = max\{deg P, deg Q\}=1$, so for FL:
 $$\sum_{f(z_0)=z_o, z_0 \in \mathbb{\overline C}} Ind_{z_0}f = 2 = \chi(\overline C)$$ 
-where $\chi$ is the [Euler Characteristic](https://en.wikipedia.org/wiki/Euler_characteristic) of the extendedn complex plane considered as the [Reimman Sphere](https://en.wikipedia.org/wiki/Riemann_sphere), which is then considered as tetrahedron. Very very very cool. 
+where $\chi$ is the [Euler Characteristic](https://en.wikipedia.org/wiki/Euler_characteristic) of the extended complex plane considered as the [Reimann Sphere](https://en.wikipedia.org/wiki/Riemann_sphere), which is then considered as tetrahedron. Very very very cool. 
 
 noteL Should verify this fact if time allows. 
 
@@ -94,10 +95,7 @@ Solving for $w$ in terms of $z$, we get the formula for $f(z)$
 We can use the equation outlined in the existence part of the proof of the above theorem to write down an explicit map sending $(z_1,z_2,z_3)$ to $(w_1,w_2,w_3)$
 
 
-
-
-
-
+--- 
 # TODO on these notes:
 1. add formal definition of order as I work
 2. get explicit example of unique frac liner map
