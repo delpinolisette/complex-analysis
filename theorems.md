@@ -1,0 +1,27 @@
+# Definitions and Theorems for Complex Analysis
+
+- Rouche's Theorem
+- Fundamental Theorem of Algebra
+- Type I/II Integrals
+- singularities
+- zeroes
+- residues
+- Residue Theorem
+- $ord_w{f(z)}$
+- meromorphic function
+- extended complex plane
+- linear fractional
+- Cauchy's Residue Theorem
+- winding numbers
+- Laurent Series
+- poles
+- order of a pole
+- non-isolated singularity
+- isolated singularity
+- simply connected topological space
+- path connected topological space
+- hessian matrix and critical points
+- Homotopy
+- analytic branch of complex log
+- principal branch of complex log
+- ended hw 5 continue after this
