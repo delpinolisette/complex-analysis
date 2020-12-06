@@ -1,4 +1,6 @@
-# Reference Sheet for Complex Analysis
+# Reference / Summary Sheet for Complex Analysis
+
+I've attempted to list everything I learned in an upper division course on Complex Analysis here for quick reference:
 
 
 # Complex Identities for a $z = x+iy$
@@ -15,16 +17,21 @@ $$cosh(x)= \frac{e^x = e^{-x}}{2}$$
 
 $$cosh^2(x) - sinh^2(x) = 1$$
 
-so complex hyperbolic functions:
+so we can derive the complex hyperbolic functions:
 
 $$sinh(z) = sinh(x)cos(y) + i cosh(x)sin(y)$$
 
-$$cosh(z) = $$
+$$cosh(z) = TODO$$
 
-$$tanh(z) = $$
+$$tanh(z) = TODO$$
 
 [more identities of hyperbolic trig functions](https://en.wikipedia.org/wiki/Hyperbolic_functions#Sums_of_arguments)
+
+
 # List of Important Theorems and Definitions
+
+still in progress, unordered, expanded on below. 
+
 - Rouche's Theorem
 - Fundamental Theorem of Algebra
 - Type I/II Integrals
@@ -50,6 +57,9 @@ $$tanh(z) = $$
 - analytic branch of complex log
 - principal branch of complex log
 - ended hw 5 continue after this
+
+
+---
 
 # Singular Points
 
@@ -83,4 +93,4 @@ $$tanh(z) = $$
 3. TYPE 3: **Essential Singularities** Any singular point that is not a pole or a removable singularity is an essential singularity. The limits of the function at essential singularities truly do not exist. (they're not $\infty$). Also, we cannot find an $n$ s.t. $\lim_{z \to z_0}(z-z_0)^nf(z) \neq 0$
      - ex: $f(z) = e^{\frac{1}{z-2}}$ has an essential singularity at $z =2$. 
 
-# Laurent Series Expansion 
+# Laurent Series Expansion
