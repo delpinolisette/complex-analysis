@@ -74,7 +74,7 @@ still in progress, unordered, expanded on below.
 
 ### Isolated Singularities
 
-- a point $z_0$ is an isolated singularity if you can find a deleted delta neighborhood around it with no other singularity. If you can't find a deleted neighborhood s.t. f is analytic around $z_0$, it is an essential / non isolated singularity
+- a point $z_0$ is an isolated singularity if you can find a deleted delta neighborhood around it with no other singularity. If you can't find a deleted neighborhood s.t. f is analytic around $z_0$, it is a non isolated singularity
 
 1. TYPE 1: **poles/non-essential singularities**: a type of non-essential, isolated singularity. classify its order by : $\lim_{z \to z_0}(z-z_0)^nf(z) \neq 0$ but $\lim_{z \to z_0}(z-z_0)^{n+1}f(z) \neq 0$ then $f$ has a zero of order $n$ at the pole $z_0$. The limit of $f(z)$ at a pole is $\infty$. 
    - pole classification techniques:
@@ -83,7 +83,7 @@ still in progress, unordered, expanded on below.
         - ex: $\frac{1}{z^4+16}$
     - factor the denominator. if you ses a double factor, probably a pole of order 2 (double pole)
         - ex: $\frac{1}{x^2 + 4x + 4}$
-    - check your order guesses with limit definition
+    - verify that your "guess" for the order of a pole is correct with the limit definition. 
     - use quadratic equation when you can't easily factor (valid for complex numbers): $z =\frac{-b \pm \sqrt{b^2 - 4ac}}{2}$
         - ex: $\frac{1}{z^2 - z + 1}$
 
@@ -104,3 +104,13 @@ Step 2: After you have a guess, check the limit theorems of each type. A removab
 Step 3: If you have a pole, verify the order with the limit equation. 
 
 # Laurent Series Expansion
+
+Laurent Series are made up of a an analytic sum and a principal sum. When expanding, make sure to account for both parts! Furthermore, while expanding, account for all possible domains of the series. 
+
+### Essential Theory of Laurent Series:
+
+- if $f(z)$ analytic on an annulus $R_1<|z-z_0|<R_2$, then the function has a Laurent Series (which in special cases becomes a Taylor Series) $\forall z \in R$, where $R$ is the region defined by the annulus (most generally, a punctured disk). 
+- Then Laurent Series (LS) are (Analytic part) + (Principal part) $\forall z \in R_1<|z-z_0|<R_2$, formally: 
+
+$$ \sum_{n = 0}^{\infty} a_n(z-z_0)^n + \sum_{n = 1}^{\infty} a_{-n}(z-z_0)^{-n} \forall z \in R_1<|z-z_0|<R_2 $$
+

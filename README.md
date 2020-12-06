@@ -1,11 +1,14 @@
 # Complex Analysis
 Notes, Code, and Reference on Complex Analysis. 
 
-`summary_of_complex_analysis.pdf` contains my outline on the subject. While I learned the content in a class at Penn, I've supplemented the notes with examples from other sources/textbooks, my goal was to make the summary as concise but clear as possible. 
 
 When a file is written in markdown, a pdf is generated as well. The pdf is the readable version of the notes, check that one out. 
 
 /assets/pdf is safe to ignore - it contains my written draft of lecture notes. I have terrible handwriting.
+
+# Summary of Complex Analysis
+
+`summary_of_complex_analysis.pdf` contains my outline on the subject. While I learned the content in a class at Penn, I've supplemented the notes with examples from other sources/textbooks, my goal was to make the summary as concise but clear as possible. 
 
 # Section 1:
 
