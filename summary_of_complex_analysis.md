@@ -93,4 +93,14 @@ still in progress, unordered, expanded on below.
 3. TYPE 3: **Essential Singularities** Any singular point that is not a pole or a removable singularity is an essential singularity. The limits of the function at essential singularities truly do not exist. (they're not $\infty$). Also, we cannot find an $n$ s.t. $\lim_{z \to z_0}(z-z_0)^nf(z) \neq 0$
      - ex: $f(z) = e^{\frac{1}{z-2}}$ has an essential singularity at $z =2$. 
 
+### Strategy for problems of classification:
+
+Step 1: Visualize the singularity, if provided. If the behavior tends to positive infinity or negative infinity (or both), it's probably a pole. If the behavior at the singularity of the function seems continuous, it might be a removable singularity. An essential singularity looks like neither a pole (strictly tending to positive/negative infinity) or a removable singularity. 
+
+Note that a non isolated singularity will have other singularities "really close" to the proposed singularity. If the function behaves erratically (ex: $tan(\frac{1}{z})$ at $z=0$), it might be a non-isolated singularity. Always formally prove that it is non isolated by finding formulas for the other singularities. Once you have such a formula for "dividing by zero", take the limit 
+
+Step 2: After you have a guess, check the limit theorems of each type. A removable singularity should have a limit that exists at that point. A pole will yield an infinite limit. An essential singularity will yield a truly nonexistent limit. 
+
+Step 3: If you have a pole, verify the order with the limit equation. 
+
 # Laurent Series Expansion

@@ -7,13 +7,18 @@ When a file is written in markdown, a pdf is generated as well. The pdf is the r
 
 /assets/pdf is safe to ignore - it contains my written draft of lecture notes. I have terrible handwriting.
 
-## Section 1:
+# Section 1:
+
+this is in a jupyter notebook. 
+
 1.1. The Field of Complex Numbers
 
 1.2 The Complex Plane
 
 1.3 Solving the Cubic Equation
+
 # Section 8:
+
 1. Conformal Mapping Problems (in progress)
 2. Cross Ratio and Fixed Points (complete notes)
 
